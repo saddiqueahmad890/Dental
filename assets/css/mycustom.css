@@ -1,0 +1,332 @@
+.box {
+    width: 100%;
+    max-width: 600px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 0 auto;
+}
+
+.error {
+    color: red;
+    font-weight: 700;
+}
+
+.calendar-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+.scroller1{
+    height: 400px; overflow-y: scroll;
+}
+
+.notification-item {
+    font-size: 11px;
+    border-bottom: 1px dotted #ccc;
+    color: #686868;
+    font-family: arial;
+}
+
+p.notification-title {
+    margin-bottom:0;
+    text-wrap: wrap;
+}
+p.notification-created_at {
+    margin-bottom: 5px;
+}
+
+.notification-dd-container {
+    display: block;
+    height: 200px;
+    overflow-y: scroll;
+}
+
+.its-new {
+    font-weight: bold;
+    color: #000;
+}
+
+.its-read {
+    font-weight: normal;
+    color: #686868;
+}
+
+.card-header {
+    background-color: #17a2b838;
+}
+
+.profile-pic {
+    align-content: center;
+    position: absolute;
+    left: 0%;
+    top: 0px;
+    background: #ccebef;
+    border-radius: 100px;
+    padding: 0px;
+}
+.profile-pic2{
+    align-content: center;
+    background: #ccebef;
+    border-radius: 100px;
+    padding: 0px;
+    width: 35px;
+    height: 35px;
+}
+.profile-pic img {
+    height: 30px !important;
+    width: 30px !important;
+}
+
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.nav-sidebar>.nav-item {
+    border-bottom: 0.25px solid #dfdfdf;
+}
+
+[class*=sidebar-light-] .nav-treeview>.nav-item>.nav-link {
+    border-top: 0.25px solid #dfdfdf;
+}
+
+/* ------------- Sidebar Dropdown Icon ------------ */
+.fa-angle-left:before {
+    content: "\f107";
+    }
+
+/* ---------- Action Column Align Right */
+#laravel_datatable thead tr th:last-child,
+.card-body>.table>thead>tr>th:last-child{
+    text-align: right;
+}
+.table>tbody>tr>td:last-child,
+.table>thead>tr>th:last-child {
+    text-align: right;
+    justify-content: end;
+    min-width: 80px;
+}
+table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > td:first-child:before,
+table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > th:first-child:before {
+    top: 25%;
+    left: 7px;
+    height: 24px;
+    width: 24px;
+    display: block;
+    position: absolute;
+    color: white;
+    border: 2px solid white;
+    border-radius: 14px;
+    box-shadow: 0 0 3px #444;
+    box-sizing: content-box;
+    text-align: center;
+    align-content:center;
+    text-indent: 0 !important;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 14px;
+    content: '+';
+    background-color: #0275d8
+}
+table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > td:first-child img {
+    margin-left: 10px;
+}
+table.dataTable.dtr-inline.collapsed > tbody > tr.parent > td:first-child:before,
+table.dataTable.dtr-inline.collapsed > tbody > tr.parent > th:first-child:before {
+content: '-';
+background-color: #d33333;
+
+}
+
+table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > td:first-child span{
+    margin-left: 40px;
+}
+/*----------------  View All Patients   ------------------*/
+@media screen and (max-width: 1190px) {
+    /* Action Button */
+    .responsive-width{
+        display: grid;
+        grid-template-columns: auto auto;
+        padding-left: 20px;
+    }
+    .responsive-width-item{
+        margin: 5px;
+    }
+
+  }
+
+
+  @media screen and (max-width: 1162px){
+    .table>tbody>tr>td:last-child {
+        text-align: center;
+    }
+  }
+
+.nav-sidebar li a {
+    border-radius: 0 !important;
+}
+
+.nav-pills .nav-link:not(.active):hover {
+    color: #17a2b8;
+}
+.os-content {
+    padding: 0px !important;
+}
+
+.nav-sidebar .nav-item>.nav-link {
+    margin-bottom: 0;
+}
+.treatment-plan-edit-action-tab-list{
+    text-align: start;
+}
+.treatment-plan-edit-action-tab-list input[type=checkbox]{
+    margin-top: 3px !important;
+    margin-left: 0px;
+}
+.treatment-plan-edit-action-tab-list label{
+    margin-left: 20px;
+}
+.invoice-info p, .consultancy-col p{
+    margin-bottom: 0px !important;
+}
+.custom-table>tbody>tr>td:last-child,
+.custom-table>thead>tr>th:last-child {
+    text-align: left !important;
+    justify-content: end;
+}
+.btn{
+    width: max-content !important;
+}
+
+.btn-circle {
+    width: 30px !important;
+    height: 30px !important;
+    padding: 3px 3px !important;
+    border-radius: 25px;
+    font-size: 13px;
+    line-height: 1.33;
+}
+
+.btn-default{
+    margin-right:10px;
+}
+.modal {
+    overflow-y: scroll !important;
+    max-height: 500px;
+}
+.btn-primary{
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+    box-shadow: none;
+}
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus{
+    color: #17a2b8;
+    background-color: #fff;
+}
+.select2{
+    width: 100% !important;
+}
+.alert-light {
+    border: 1px solid #b7cde3;
+    margin-right: 3px !important;
+    background: #ffffff !important;
+    padding: 5px 10px 5px 10px;
+}
+.alert-light p{
+    margin-bottom: 0px;
+    margin-top:-7px;
+}
+.input-group {
+    flex-wrap: nowrap !important;
+}
+.tooth-issues, .tooth-issues ~ p{
+    margin-top: -10px;
+    margin-bottom: 0rem;
+}
+
+/* -------------------------For All Print Screens --------------------------------- */
+
+@media print {
+    body {
+        -webkit-print-color-adjust: exact;
+        background-color: #fff;
+    }
+}
+
+.text-decoration-underline {
+    text-decoration: underline !important;
+}
+
+.dropdown-menu {
+    left: -133px;
+}
+
+.invalid-feedback{
+    position: absolute ;
+    top: 40px;
+    font-weight: bold;
+}
+.profile-user-img-custom {
+    width: 173px !important;
+    height: 173px !important;
+}
+.bg-custom{
+    background: #f3f3f3;
+    border: 1px solid #d9d1d1;
+}
+
+
+/* js validation message */
+input.parsley-error {
+    border-color: #ff4d4d;
+    box-shadow: 0 0 5px #ff4d4d;
+}
+
+/* Style for the input field when it passes validation */
+input.parsley-success {
+    border-color: #28a745;
+    box-shadow: 0 0 5px #28a745;
+}
+
+/* Style for the error messages */
+.parsley-errors-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 5px 0 0;
+    color: #ff4d4d;
+    font-size: 0.875rem;
+    position: absolute;
+    top: 35px;
+    /* Ensure the error message stays below the input field */
+    display: block;
+    /* Ensure the error message takes up full width below the field */
+    width: 100%;
+    /* Make sure the error message aligns with the input field width */
+}
+
+/* Style the error icon */
+.parsley-errors-list li:before {
+    content: "⚠ ";
+    margin-right: 5px;
+    font-size: 1rem;
+}
+
+/* Style the success icon for validated fields */
+input.parsley-success+.input-group-prepend .input-group-text {
+    color: #28a745;
+}
+
+input.parsley-error+.input-group-prepend .input-group-text {
+    color: #ff4d4d;
+}
+input[type="checkbox"]:checked {
+    background-color: #4CAF50;
+    color: green !important;
+    /* Background when checked */
+    border-color: #4CAF50;
+    /* Change border color when checked */
+    /* Add more styles like color, icon, etc. */
+}

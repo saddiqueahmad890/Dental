@@ -1,0 +1,34 @@
+.dental-charting {
+border: 1px solid #cacaca;
+padding: 30px;
+margin: 50px;
+}
+.chart {
+background: #fff;
+text-align: center;
+}
+.codes {
+border: 1px solid #cacaca;
+}
+
+.tooth-group:hover {
+    fill: red;
+}
+
+
+.selected {
+    fill: red !important;
+}
+.marked path, .marked {
+    fill: red !important; /* Change this to your desired fill color */
+    stroke: blue; /* Change this to your desired stroke color (optional) */
+  }
+
+  .selected path {
+    fill: red !important; /* Change this to your desired fill color */
+    stroke: blue; /* Change this to your desired stroke color (optional) */
+  }
+
+.modal-lg-custom {
+    max-width: 70%; /* Adjust this value as needed */
+  }

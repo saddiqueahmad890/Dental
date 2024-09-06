@@ -1,0 +1,494 @@
+.dental-charting {
+border: 1px solid #cacaca;
+padding: 30px;
+margin: 50px;
+}
+.chart {
+background: #fff;
+text-align: center;
+}
+.codes {
+border: 1px solid #cacaca;
+}
+
+.tooth-group:hover {
+    fill: red;
+}
+
+
+.selected {
+    fill: red !important;
+}
+.marked path, .marked {
+    fill: red !important; /* Change this to your desired fill color */
+    stroke: blue; /* Change this to your desired stroke color (optional) */
+  }
+
+  .selected path {
+    fill: red !important; /* Change this to your desired fill color */
+    stroke: blue; /* Change this to your desired stroke color (optional) */
+  }
+
+.modal-lg-custom {
+    max-width: 70%; /* Adjust this value as needed */
+  }
+
+
+  /* ----------------------- CSS For Images of teeth --------------------------- */
+ 
+  .red-teeth {
+    height: inherit;
+    width: inherit;
+    filter: brightness(10%) sepia(80) saturate(80) hue-rotate(25deg);
+}
+
+.simple-teeth {
+    height: inherit;
+    width: inherit;
+    filter: none;
+
+}
+
+.simple-teeth:hover {
+    filter: brightness(10%) sepia(80) saturate(50) hue-rotate(25deg);
+}
+
+.teeth-container{
+    position: relative;
+    width: 350px;
+    height: 600px;
+    margin: auto;
+}
+
+.teeth {
+    position: absolute;
+}
+
+.teeth-11 {
+  top: 40px;
+  left: 130px;
+}
+
+.teeth-12 {
+  top: 52px;
+  left: 95px;
+}
+
+.teeth-13 {
+  top: 68px;
+  left: 64px;
+}
+
+.teeth-14 {
+  top: 96px;
+  left: 49px;
+}
+
+.teeth-15 {
+  top: 126px;
+  left: 36px;
+}
+
+.teeth-16 {
+  top: 152px;
+  left: 17px;
+}
+
+.teeth-17 {
+  top: 196px;
+  left: 9px;
+}
+
+.teeth-18 {
+  top: 238px;
+  left: 7px;
+}
+
+.teeth-21 {
+  top: 40px;
+  left: 172px;
+}
+
+.teeth-22 {
+  top: 52px;
+  left: 212px;
+}
+
+.teeth-23 {
+  top: 68px;
+  left: 244px;
+}
+
+.teeth-24 {
+  top: 96px;
+  left: 254px;
+}
+
+.teeth-25 {
+  top: 126px;
+  left: 266px;
+}
+
+.teeth-26 {
+  top: 152px;
+  left: 274px;
+}
+
+.teeth-27 {
+  top: 196px;
+  left: 286px;
+}
+
+.teeth-28 {
+  top: 238px;
+  left: 289px;
+}
+
+.teeth-31 {
+  top: 507px;
+  left: 172px;
+}
+
+.teeth-32 {
+  top: 499px;
+  left: 212px;
+}
+
+.teeth-33 {
+  top: 479px;
+  left: 240px;
+}
+
+.teeth-34 {
+  top: 448px;
+  left: 265px;
+}
+
+.teeth-35 {
+  top: 415px;
+  left: 288px;
+}
+
+.teeth-36 {
+  top: 370px;
+  left: 291px;
+}
+
+.teeth-37 {
+  top: 328px;
+  left: 300px;
+}
+
+.teeth-38 {
+  top: 295px;
+  left: 305px;
+}
+
+.teeth-41 {
+  top: 507px;
+  left: 133px;
+}
+
+.teeth-42 {
+  top: 495px;
+  left: 100px;
+}
+
+.teeth-43 {
+  top: 479px;
+  left: 71px;
+}
+
+.teeth-44 {
+  top: 448px;
+  left: 46px;
+}
+
+.teeth-45 {
+  top: 415px;
+  left: 26px;
+}
+
+.teeth-46 {
+  top: 370px;
+  left: 9px;
+}
+
+.teeth-47 {
+  top: 328px;
+  left: 4px;
+}
+
+.teeth-48 {
+  top: 295px;
+  left: 7px;
+}
+
+.teeth-51 {
+  top: 164px;
+  left: 140px;
+}
+
+.teeth-52 {
+  top: 172px;
+  left: 113px;
+}
+
+.teeth-53 {
+  top: 190px;
+  left: 94px;
+}
+
+.teeth-54 {
+  top: 212px;
+  left: 84px;
+}
+
+.teeth-55 {
+  top: 241px;
+  left: 82px;
+}
+
+.teeth-61 {
+  top: 164px;
+  left: 170px;
+}
+
+.teeth-62 {
+  top: 172px;
+  left: 199px;
+}
+
+.teeth-63 {
+  top: 190px;
+  left: 218px;
+}
+
+.teeth-64 {
+  top: 212px;
+  left: 226px;
+}
+
+.teeth-65 {
+  top: 241px;
+  left: 230px;
+}
+
+.teeth-71 {
+  top: 390px;
+  left: 170px;
+}
+
+.teeth-72 {
+  top: 377px;
+  left: 194px;
+}
+
+.teeth-73 {
+  top: 359px;
+  left: 213px;
+}
+
+.teeth-74 {
+  top: 335px;
+  left: 233px;
+}
+
+.teeth-75 {
+  top: 302px;
+  left: 234px;
+}
+
+.teeth-81 {
+  top: 390px;
+  left: 144px;
+}
+
+.teeth-82 {
+  top: 381px;
+  left: 120px;
+}
+
+.teeth-83 {
+  top: 361px;
+  left: 99px;
+}
+
+.teeth-84 {
+  top: 335px;
+  left: 80px;
+}
+
+.teeth-85 {
+  top: 302px;
+  left: 82px;
+}
+
+
+
+
+.teeth-11,
+.teeth-21 {
+    height: 35px;
+    width: 45px;
+}
+
+.teeth-12,
+.teeth-22 {
+    height: 32px;
+    width: 40px;
+}
+
+.teeth-13,
+.teeth-23 {
+    height: 35px;
+    width: 40px;
+}
+
+.teeth-14,
+.teeth-24 {
+    height: 32px;
+    width: 46px;
+}
+
+.teeth-15,
+.teeth-25 {
+    height: 32px;
+    width: 46px;
+}
+
+.teeth-16,
+.teeth-26 {
+    height: 52px;
+    width: 52px;
+}
+
+.teeth-17,
+.teeth-27 {
+    height: 45px;
+    width: 50px;
+}
+
+.teeth-18,
+.teeth-28 {
+    height: 37px;
+    width: 52px;
+}
+
+.teeth-51,
+.teeth-61 {
+    height: 27px;
+    width: 32px;
+}
+
+.teeth-52,
+.teeth-62 {
+    height: 25px;
+    width: 30px;
+}
+
+.teeth-53,
+.teeth-63 {
+    height: 27px;
+    width: 32px;
+}
+
+.teeth-54,
+.teeth-64 {
+    height: 32px;
+    width: 37px;
+}
+
+.teeth-55,
+.teeth-65 {
+    height: 32px;
+    width: 37px;
+}
+
+.teeth-38,
+.teeth-48 {
+    height: 35px;
+    width: 40px;
+}
+
+.teeth-37,
+.teeth-47 {
+    height: 45px;
+    width: 50px;
+}
+
+.teeth-36,
+.teeth-46 {
+    height: 48px;
+    width: 55px;
+}
+
+.teeth-35,
+.teeth-45 {
+    height: 42px;
+    width: 40px;
+}
+
+.teeth-34,
+.teeth-44 {
+    height: 43px;
+    width: 42px;
+}
+
+.teeth-33,
+.teeth-43 {
+    height: 41px;
+    width: 39px;
+}
+
+.teeth-32,
+.teeth-42 {
+    height: 40px;
+    width: 40px;
+}
+
+.teeth-31,
+.teeth-41 {
+    height: 35px;
+    width: 45px;
+}
+
+.teeth-71,
+.teeth-81 {
+    height: 27px;
+    width: 28px;
+}
+
+.teeth-72,
+.teeth-82 {
+    height: 34px;
+    width: 28px;
+}
+
+.teeth-73,
+.teeth-83 {
+    height: 37px;
+    width: 31px;
+}
+
+.teeth-74,
+.teeth-84 {
+    height: 35px;
+    width: 32px;
+}
+
+.teeth-75,
+.teeth-85 {
+    height: 35px;
+    width: 32px;
+}
+
+
+/* ----------------------------- CSS for teeth pictures end --------------------------- */
+
+ table#teeth_issues>tbody>tr>td:last-child, table#teeth_issues>thead>tr>th:last-child {
+  width: 63px;
+}
+table#teeth_issues>tbody>tr>td:first-child, table#teeth_issues>thead>tr>th:first-child {
+  width: 250px;
+}
